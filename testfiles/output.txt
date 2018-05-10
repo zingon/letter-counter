@@ -1,31 +1,31 @@
-Celkovy pocet znaku: 0
-Nejcastejsi znak: a
-Nejmene casty znak: a
-Prumerna cetnost znaku: 0
+Celkovy pocet znaku: 396
+Nejcastejsi znak: e
+Nejmene casty znak: j
+Prumerna cetnost znaku: 12
 
 Cetnost jednotlivych znaku:
-a - 0
-b - 0
-c - 0
-d - 0
-e - 0
-f - 0
-g - 0
-h - 0
-i - 0
+a - 25
+b - 3
+c - 14
+d - 9
+e - 35
+f - 3
+g - 5
+h - 2
+i - 33
 j - 0
 k - 0
-l - 0
-m - 0
-n - 0
-o - 0
-p - 0
-q - 0
-r - 0
-s - 0
-t - 0
-u - 0
-v - 0
+l - 18
+m - 16
+n - 16
+o - 14
+p - 8
+q - 7
+r - 23
+s - 32
+t - 30
+u - 30
+v - 7
 w - 0
 x - 0
 y - 0
