@@ -1,0 +1,11 @@
+#!/bin/bash
+
+touch appOutput.txt
+./cmake-build-debug/letter_counter < testfiles/input.txt > appOutput.txt
+DIFF=$(diff appOutput.txt testfiles/output.txt)
+echo $DIFF > appDiff.txt
+if [ "$DIFF" == 0 ]; then
+  echo "Test proběhl úspěšně"
+else
+  echo "Něco je špatně"
+fi

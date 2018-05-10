@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <ctype.h>
 #include "letters.h"
 
 int main(int argc,char ** argv) {
@@ -17,14 +18,15 @@ int main(int argc,char ** argv) {
     }
 
     while((c = fgetc(input)) != EOF && c != '#') {
-        if(!Letter_Exists(letters,tolower(c))) {
+        c = tolower(c);
+        if(!Letter_Exists(letters,c)) {
             continue;
         }
 
-    	int index = Letter_Index(letters,c, total_letters);
+    	int index = Letter_Index(letters, c, total_letters);
 
     	if(index < total_letters) {
-		    count[index]++;
+		    count[index] += 1;
 	    }
 
     }

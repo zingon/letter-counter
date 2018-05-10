@@ -1,4 +1,4 @@
-Celkovy pocet znaku: 396
+Celkovy pocet znaku: 322
 Nejcastejsi znak: e
 Nejmene casty znak: j
 Prumerna cetnost znaku: 12
