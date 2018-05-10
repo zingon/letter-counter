@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "letters.h"
 
 int main(int argc,char ** argv) {
     FILE * input;
@@ -15,10 +16,8 @@ int main(int argc,char ** argv) {
     }
 
     while((c = fgetc(input)) != EOF && c != '#') {
-    	int index = 0;
-    	while(index <= total_letters && letters[index] != c) {
-    		index++;
-    	}
+    	int index = Letter_Index(letters,c);
+
     	if(index < total_letters) {
 		    count[index]++;
 	    }
