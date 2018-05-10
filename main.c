@@ -17,7 +17,7 @@ int main(int argc,char ** argv) {
     }
 
     while((c = fgetc(input)) != EOF && c != '#') {
-        if(!Letter_Exists(letters,c)) {
+        if(!Letter_Exists(letters,tolower(c))) {
             continue;
         }
 
